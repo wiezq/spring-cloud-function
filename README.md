@@ -13,12 +13,14 @@ Make sure that you have the https://cloud.google.com/sdk/install[Cloud SDK CLI] 
 Run the following command from the project root to deploy.
 
 ----
+
 gcloud functions deploy function-sample-gcp-http \
 --entry-point org.springframework.cloud.function.adapter.gcp.GcfJarLauncher \
 --runtime java17 \
 --trigger-http \
 --source target/deploy \
 --memory 512MB
+
 ----
 
 Invoke the HTTP function:
