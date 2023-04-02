@@ -1,5 +1,4 @@
-# spring-cloud-function
-Deploy to GCP
+===== Deploy to GCP
 
 Package the application.
 
